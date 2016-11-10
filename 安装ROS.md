@@ -5,6 +5,7 @@
 ###直接根据TA给的ppt找到那个网址，然后根据网址的顺序来一步步的安装这个ROS
 * 第一步是添加软件源，一旦添加了正确的软件源，操作系统就知道去哪里下载程序，并根据命令自动安装软件，输入下面的指令。
 * sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+* sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 0xB01FA116
 
 ![](https://github.com/KRICOK/ES2016_14353393/blob/master/first.png?raw=true)
 
